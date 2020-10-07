@@ -1,5 +1,4 @@
 $box-shadow: 0px -1px 1px -1px;
-$name: display-flex;
 
 body {
     
@@ -8,37 +7,43 @@ body {
 
 }
 
-#fname, #lname, #birthday, #gender, #relation {
+p {
+    font-size: 12px;
+}
+
+input {
     box-shadow: $box-shadow;
 }
+
+label {
+    float: left;
+}
+
 
 form {
 
     .Name {
-        display: flex;
+        display: grid;
+        grid-template-columns: 220px 220px;
 
         input, label {
             display: block;
         }
 
+    
+        }
         
-    .personals {
-
-        display: flex;
-        
-        input, label {
-            display: block;
-        
-    }
-
-    td {
-
-        width: 10em;
-        margin: 0 1em 0 0;
-    }
  
-        }
-
     }
+
+#address {
+    width: 870px;
+    
 }
+
+#address3 {
+    width: 420px;
+}
+
+
 

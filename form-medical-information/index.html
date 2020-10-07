@@ -10,7 +10,7 @@
 
 <body>
 
-<div class="Information"><h1>Emergency Contact and Medical Information</h1></div>
+<div class="Information"><h3>Emergency Contact and Medical Information</h3></div>
 <hr>
 
 
@@ -19,16 +19,14 @@
     <fieldset>
 
         <div class="Name form-inline">
-            
             <div class="first col-md-2">
-
-                <label for="fname">First</label>
-                <input type="text" id="fname" name="fname"><br><br>
+                <input type="text" id="fname" name="fname">
+                <p>First</p>
             </div>
-
+    
             <div class="last col-md-2">
-                <label for="lname">Last</label>
-                <input type="text" id="lname" name="lname"><br><br>
+                <input type="text" id="lname" name="lname">
+                <p>Last</p>
             </div>
         </div>
 
@@ -36,11 +34,14 @@
         <div class="personals form-inline">
 
             <div class="gender col-md-2">  
+
                 <label for="gender">Gender</label>
+                
                 <select name="gender" id="gender">
                     <option value="male">male</option>
                     <option value="female">female</option>
                 </select>
+              
             </div>
                     
             <div class="birthday col-md-2">
@@ -54,32 +55,65 @@
 
 <hr>
 
+<fieldset>
+
 <div class="emergency">
 
     <h5>Emergency Contact</h5>
 
     <div class="contact form-inline">
-            
-        <div class="first col-md-2">
-
-            <label for="fname">First</label>
-            <input type="text" id="fname" name="fname"><br><br>
-        </div>
-
-        <div class="last col-md-2">
-            <label for="lname">Last</label>
-            <input type="text" id="lname" name="lname"><br><br>
+       
+        <div class="Name form-inline">
+            <div class="first col-md-2">
+                <input type="text" id="fname" name="fname">
+                <p>First</p>
+            </div>
+    
+            <div class="last col-md-2">
+                <input type="text" id="lname" name="lname">
+                <p>Last</p>
+            </div>
         </div>
 
         <div class="relation col-md-2 offset-2">
             <label for="relation">Relationship</label>
             <input type="text" id="relation" name="relation"><br><br>
         </div>
+       
+        <div class="address col-md-6">
+            <label for="address">Address</label>
+            <input type="text" id="address" name="address">
+            <p>Street Address</p>
+            <input type="text" id="address" name="address2">
+            <p>Address Line 2</p>
+            
+        </div>
 
+<div class="form-inline">
+
+        <div class="address col-md-6">
+            <input type="text" id="address3" name="address">
+            <p>City</p>    
+        </div>
+        
+        <div class="address col-md-6">
+            <input type="text" id="address3" name="address">
+            <p>State / Province / Region</p>  
+        </div>
+
+</div>
+
+<div class="form-inline">
+
+    <div class="address col-md-6">
+        <input type="text" id="address3" name="address">
+        <p>Postal / Zip Code</p>    
     </div>
+    
 
-</div> 
-<hr>
+   
+
+</div>
 
 
 

@@ -3,33 +3,35 @@ body {
   padding: 10px;
 }
 
-#fname, #lname, #birthday, #gender, #relation {
+p {
+  font-size: 12px;
+}
+
+input {
   -webkit-box-shadow: 0px -1px 1px -1px;
           box-shadow: 0px -1px 1px -1px;
 }
 
+label {
+  float: left;
+}
+
 form .Name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 220px 220px;
+      grid-template-columns: 220px 220px;
 }
 
 form .Name input, form .Name label {
   display: block;
 }
 
-form .Name .personals {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+#address {
+  width: 870px;
 }
 
-form .Name .personals input, form .Name .personals label {
-  display: block;
-}
-
-form .Name .personals td {
-  width: 10em;
-  margin: 0 1em 0 0;
+#address3 {
+  width: 420px;
 }
 /*# sourceMappingURL=form.css.map */
