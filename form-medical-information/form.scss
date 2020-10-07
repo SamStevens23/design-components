@@ -1,0 +1,44 @@
+$box-shadow: 0px -1px 1px -1px;
+$name: display-flex;
+
+body {
+    
+    outline: 1px solid #000;
+    padding: 10px; 
+
+}
+
+#fname, #lname, #birthday, #gender, #relation {
+    box-shadow: $box-shadow;
+}
+
+form {
+
+    .Name {
+        display: flex;
+
+        input, label {
+            display: block;
+        }
+
+        
+    .personals {
+
+        display: flex;
+        
+        input, label {
+            display: block;
+        
+    }
+
+    td {
+
+        width: 10em;
+        margin: 0 1em 0 0;
+    }
+ 
+        }
+
+    }
+}
+

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+    <title>Medical Form</title>
+</head>
+
+<body>
+
+<div class="Information"><h1>Emergency Contact and Medical Information</h1></div>
+<hr>
+
+
+<form>
+
+    <fieldset>
+
+        <div class="Name form-inline">
+            
+            <div class="first col-md-2">
+
+                <label for="fname">First</label>
+                <input type="text" id="fname" name="fname"><br><br>
+            </div>
+
+            <div class="last col-md-2">
+                <label for="lname">Last</label>
+                <input type="text" id="lname" name="lname"><br><br>
+            </div>
+        </div>
+
+
+        <div class="personals form-inline">
+
+            <div class="gender col-md-2">  
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </div>
+                    
+            <div class="birthday col-md-2">
+                <label for="birthday">Day of Birth</label>
+                <input type="date" id="birthday" name="Day of Birth"> 
+            </div>
+
+        </div>
+
+    </fieldset> 
+
+<hr>
+
+<div class="emergency">
+
+    <h5>Emergency Contact</h5>
+
+    <div class="contact form-inline">
+            
+        <div class="first col-md-2">
+
+            <label for="fname">First</label>
+            <input type="text" id="fname" name="fname"><br><br>
+        </div>
+
+        <div class="last col-md-2">
+            <label for="lname">Last</label>
+            <input type="text" id="lname" name="lname"><br><br>
+        </div>
+
+        <div class="relation col-md-2 offset-2">
+            <label for="relation">Relationship</label>
+            <input type="text" id="relation" name="relation"><br><br>
+        </div>
+
+    </div>
+
+</div> 
+<hr>
+
+
+
+</form> 
+
+
+</body>
+</html>
